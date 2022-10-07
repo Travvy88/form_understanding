@@ -25,7 +25,10 @@
 - [funsd.py](https://huggingface.co/datasets/nielsr/funsd/blob/main/funsd.py)
 
 ## .ipynb
-### ```funsd_vis.ipynb``` - визуализация аннотаций из датасета FUNSD
-### ```layoutlmv2_inf``` - инференс модели с использованием OCR
-### ```wikitext``` - просмотр содержимого датасета для обучения tokenizer
-### ```tokenizer_rus``` - извлечение текста из документов и обучение tokenizer
+### ```funsd_vis``` - визуализация аннотаций из датасета FUNSD
+### ```model_funsd_inference_ocr_true``` - инференс модели на FUNSD с использованием OCR
+### ```model_ruinvoices_inference_ocr_true``` - инференс модели на размеченных русских счёт-фактурах с использованием OCR
+### ```prepare_labeled_annotations``` - перевод размеченных в label-studio аннотаций в стиль FUNSD
+### ```model_ruinvoices_fine_tuning_test_ocr_true``` - дообучение модели на размеченных русских счёт-фактурах и тест с использованием OCR
+### ```labeled_russian_invoices_vis``` - визуализация аннотаций из датасета русских счёт-фактур
+### ```extract_text_train_tokenizer``` - извлечение текста из документов и обучение tokenizer
